@@ -5,7 +5,7 @@ import { socialLinks } from '../utils/dataBase';
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
 import Button from '../components/Button';
 import Image from 'next/image';
-import Name from '../components/Name';
+// import Name from '../components/Name';
 import Image_Component from '../components/Image Component';
 
 function HeroSection() {
@@ -40,7 +40,7 @@ function HeroSection() {
           filter={false}
           words="Hi, I am"
         />
-        <Name/>
+{/*         <Name/> */}
         {/* <TextGenerateEffect
           className="text-base font-semibold text-orange-400 md:text-x2"
           duration={2}
